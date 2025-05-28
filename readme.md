@@ -1,5 +1,7 @@
 # Bitespeed Identity Resolution API
-# Task [https://bitespeed.notion.site/Bitespeed-Backend-Task-Identity-Reconciliation-53392ab01fe149fab989422300423199](Link)
+
+## 🔗 [Bitespeed Backend Task – Identity Reconciliation](https://bitespeed.notion.site/Bitespeed-Backend-Task-Identity-Reconciliation-53392ab01fe149fab989422300423199)
+
 
 This project is a backend service for **contact identity resolution**, built as part of a hiring assignment for **Bitespeed**.
 
@@ -30,10 +32,12 @@ The API is deployed at:
 
 This endpoint accepts a request body with an optional email and/or phone number. It checks existing contact records, links them appropriately, and returns the consolidated contact information.
 
-#### ✅ Request Body
+#### Request Body
+Either "email" or "phoneNumber" is required, both are optional but at least one must be present.
 
 ```json
 {
   "email": "george@hillvalley.edu",
   "phoneNumber": "717171"
 }
+
