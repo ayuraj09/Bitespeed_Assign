@@ -26,7 +26,7 @@ The API is deployed at:
 
 ---
 
-## 📦 API Endpoint
+## API Endpoint
 
 ### `POST /identify`
 
